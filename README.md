@@ -2,6 +2,13 @@
 
 Dockerfile for dionaea.
 
+## Dionaea
+
+Dionaea is a low-interaction honeypot that captures attack payloads and malware. 
+Dionaea is meant to be a nepenthes successor, embedding python as scripting language, using libemu to detect shellcodes, supporting ipv6 and tls. (https://www.honeynet.org/project/Dionaea)
+
+Repository - https://github.com/rep/dionaea
+
 ## Build
 `$ docker build -t dionaea .`
 
