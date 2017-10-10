@@ -125,8 +125,8 @@ RUN set -x && \
   make install
 
 # Setup Dionaea
-ADD config /opt/dionaea/etc/dionaea/config
-RUN /bin/bash /opt/dionaea/etc/dionaea/config/setup.sh
+#ADD config /opt/dionaea/etc/dionaea/config
+#RUN /bin/bash /opt/dionaea/etc/dionaea/config/setup.sh
 
 # Add User
 RUN groupadd --gid 1000 dionaea && \
